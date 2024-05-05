@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Grace</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3154b14419.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="headers">
+      <nav class="nempel">
+        <img src="img/logo.png" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skillsbar">Skills</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark"></i>
+        </ul>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+      <div id="header">
+        <div class="container">
+          <div class="header-text">
+            <p>Welcome!</p>
+            <h1>Hi! I'm <span>Grace Christina</span></h1>
+            <h4><span class="multiple-text"></span></h4>
+          </div>
+          <div class="social-icons">
+            <br />
+            <a href="https://web.facebook.com/grace.situmorang22?_rdc=1&_rdr"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/grchrst/?next=%2F"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/gracechristinays/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/gracesitumorang"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------about me----------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1"><img src="img/about-me.jpg" /></div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hai! Saya Grace Christina Yohanna Situmorang, merupakan seorang
+              mahasiswi yang mengambil program studi S1 Sistem Informasi
+              di Institut Teknologi Del. Saya seorang individu yang bersemangat belajar dan ingin mendapatkan wawasan yang lebih luas. 
+              Terlibat aktif dalam beberapa organisasi kampus, dan saya memegang posisi di dalamnya. 
+              Mahir dalam komunikasi, terbukti dari pengalaman kolaboratif saya dalam tim. 
+              Memiliki minat dan bakat besar di bidang Web Development, Business Analyst, System Analyst, dan Quality Assurance.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">
+                Educational Background
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li>
+                  <span>Web Development</span><br />Building simple website
+                </li>
+                <li>
+                  <span>Figma</span><br />Designing the interface of application
+                  or website
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2009 - 2015</span><br />SD Taman Asuhan</li>
+                <li><span>2015 - 2019</span><br />SMP Negeri 1 Pematangsiantar</li>
+                <li><span>2019 - 2021</span><br />SMA Negeri 3 Pematangsiantar</li>
+                <li>
+                  <span> 2021 - Current</span><br />Institut Teknologi Del
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Sekolah Dasar</span><br />Anggota Pramuka</li>
+                <li>
+                  <span>Sekolah Menengah Pertama</span><br />Anggota Pramuka
+                </li>
+                <li><span>Sekolah Menengah Atas</span><br />Anggota Rohani Kristen</li>
+                <li><span>Perguruan Tinggi</span><br />Badan Eksekutif Mahasiswa IT Del</li>
+                <li>
+                  <span>Kompetisi</span><br />Gemastik XVI Div. Data Mining
+                </li>
+                <li>
+                  <span>Organisasi</span><br />Divisi Acara Departemen Ilmu Pengetahuan dan Teknologi
+                </li>
+                <li>
+                  <span>Pengalaman Bekerja</span><br />Asisten Dosen Arsitektur dan Organisasi Komputer 2023-2024
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------Skills-------------->
+    <div id="skillsbar">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="container2">
+          <div class="skills-column">
+            <h2><span>Hard Skills</span></h2>
+            <div class="skill">
+              <div class="skill-name">HTML</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 75%">75%</div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 70%">70%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 50%">50%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Figma</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 85%">85%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-column">
+            <h2><span>Soft Skills</span></h2>
+            <div class="skill">
+              <div class="skill-name">Team Work</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%">85%</div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Creativity</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 78%">75%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Event Organizer</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 80%">80%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Communication</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 80%">85%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------Services------------>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">What I do</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-pen"></i>
+            <h2>Web Development</h2>
+            <p>
+              Designed an e-commerce website for Toba Fabric Art using PHP (Laravel), 
+              providing buying and selling services for ulos. 
+              The site was meticulously designed to ensure secure transactions, seamless navigation, and a visually appealing interface....
+            </p>
+            <a href="https://youtu.be/FKsFYaKgDBM"
+              >Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-figma"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Designed websites for Toba Fabric Art, IT Del Library, 
+              and revamped the IT Del website. 
+              This included intuitive interfaces, streamlined navigation, engaging visuals, and culturally resonant elements, ensuring an immersive and satisfying user experience across all platforms....
+            </p>
+            <a
+              href="https://drive.google.com/drive/folders/1PW9l6i1PVuPPdADsTHnGs1cMIuSC1XFa?usp=sharing"
+              >Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-table-columns"></i>
+            <h2>Project Management</h2>
+            <p>
+              Led 3+ website development project teams, achieving an 85% increase in collaboration through micro and massive projects using agile methodologies. 
+              Delivered innovative website products tailored to requirements.....
+            </p>
+            <a
+              href="https://bamai.uma.ac.id/2021/10/15/tips-belajar-menjadi-event-organizer-eo-bagi-pemula/"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------portfolio----------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/img/gambar 1.jpg" />
+            <div class="layer">
+              <h3>Application Programming and Testing Course Project</h3>
+              <p>
+                Designing the Toba Fabric Art information system with 70% of ulos product sales successfully integrated into the website system and 
+                testing API products. This also includes create ToR and SyRS documents from Toba Art Information System Design.
+              </p>
+              <div class="tempat-tombolkita">
+                <a
+                  class="tombolkita"
+                  href="https://www.figma.com/file/c8iRsxgDEFJ6YEYOKjTNBc/IF-11S2203_UTS_IMK_11S21023_Yefta-Miranda?type=design&node-id=0%3A1&mode=design&t=24NGXiF8qMQaz8Ko-1"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/gambar 3.jpg" />
+            <div class="layer">
+              <h3>Redesign IT Del Website</h3>
+              <p>
+                The project I am working on this time is to re-design the Del Technology Institute campus website. 
+                This project was carried out to fulfill the assessment for the Human Computer Interaction course.
+              </p>
+              <div class="tempat-tombolkita">
+                <a
+                  class="tombolkita"
+                  href="https://www.figma.com/file/vZVxcjIa5vBGJe8JColbk4/IMK_S1SI_12S21058_Grace-Christina-Yohanna-Situmorang?type=design&node-id=0%3A1&mode=design&t=caqa8rZNPfO0G4JO-1"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/gambar 2.jpg" />
+            <div class="layer">
+              <h3>Redesign Online Library System</h3>
+              <p>
+                The project I did this time was designing
+                return to the Del Technology Institute's Online Library System website. 
+                This project was carried out to fulfill the assessment for the Human Computer Interaction course.
+              </p>
+              <div class="tempat-tombolkita">
+                <a
+                  class="tombolkita"
+                  href="https://www.figma.com/file/FWbUe79vporp4Nu7Vc26Jr/12S21058_Mockup-Website-Perpustakaan-Del?type=design&node-id=2%3A3&mode=design&t=wMgZ6k7NOoR0bFki-1"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/gambar 4.png" />
+            <div class="layer">
+              <h3>Business Hampers Website Design for Hampers Teman Del</h3>
+              <p>
+                Developed a simple Hampers Teman Del application for use in seminars, 
+                graduations, and birthdays within the IT Del community....
+              </p>
+              <div class="sampingan">
+                <div class="tempat-tombolkita">
+                  <a class="tombolkita" href="https://drive.google.com/drive/folders/1BITBo5UfxTod25NyRgK0dN1tgJ6oX-ev?usp=sharing"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+
+                <div class="tempat-tombolkita">
+                  <a
+                    class="tombolkita"
+                    href="https://github.com/KevinUnedo/hampers-teman-del"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/gambar 5.png" />
+            <div class="layer">
+              <h3>Design and Systems Analysis Course Project</h3>
+              <p>
+                Prepared SyRS documents for designing a Document Management Information System in the SPMI Unit at IT Del.
+              </p>
+              <div class="tempat-tombolkita">
+                <a
+                  class="tombolkita"
+                  href="https://drive.google.com/file/d/1UGFHKQq5eAXE9NsQinxUvYIHFgsGWjMK/view?usp=sharing"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/gambar 6.png" />
+            <div class="layer">
+              <h3>Information Systems Project Management Course</h3>
+              <p>
+                Designed an Information System for managing IT Del student activities, 
+                aiming to integrate 80% of activities into the System within a year.
+              </p>
+              <div class="tempat-tombolkita">
+                <a
+                  class="tombolkita"
+                  href="https://drive.google.com/file/d/1UGFHKQq5eAXE9NsQinxUvYIHFgsGWjMK/view?usp=sharing"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+      </div>
+    </div>
+    <!--------------Contact--------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-location-dot"></i> Jl. Marimbun II No. 97 P.Siantar
+            </p>
+            <p><i class="fa-solid fa-envelope"></i>gracestmrg02@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+62 821-6496-1233</p>
+            <div class="social-icons">
+              <h3>Follow Me</h3>
+              <br />
+              <a href="https://web.facebook.com/grace.situmorang22?_rdc=1&_rdr"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/grchrst/?next=%2F"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/gracechristinays/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/gracesitumorang"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="/img/Grace Christina Yohanna Situmorang-CV.pdf" download class="btn btn2"
+              >Download CV</a>
+          </div>
+          <div class="contact-right">
+            <!-- <form name="submit-to-google-sheet"> -->
+            <form>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Name"
+                required
+                maxlength="50"
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <!-- 
+            <span id="msg"></span> -->
+          </div>
+        </div>
+      </div>
+
+      <!----Copyright-------->
+      <div class="copyright">
+        <p>
+          Copyright &copy; <time datetime="2024">2024</time
+          ><span> Grace Christina Yohanna Situmorang</span>. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script> -->
+
+    <!-- <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script> -->
+
+    <!-- <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxqe_4vmaGsX3TN3nHAjWdU6wthLE9VmruElO-5YG1of2d2nAHikHhXpZVEfkcKWDXlpQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              mdg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script> -->
+    <a href="#" class="top"><i class="fa-solid fa-caret-up"></i></a>
+    <script
+      id="ratufa_loader"
+      src="https://www.ratufa.io/c/ld.js?f=ysul34j1&n=n1.ratufa.io"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
