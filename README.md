@@ -1,5 +1,4 @@
-Grace Christina's Portfolio Website
-🌟 Welcome to My Portfolio 🌟
+Grace Christina's Portfolio Website 🌟
 
 Navigation
 🏠 Home
@@ -15,6 +14,7 @@ Hi! I'm Grace Christina, a passionate and dedicated student pursuing a Bachelor'
 
 👩‍💼 About
 About Me
+
 Hi! I'm Grace Christina Yohanna Situmorang, a student in the Information Systems Bachelor's program at the Del Institute of Technology. I am an enthusiastic learner seeking broader insights. Actively involved in several campus organizations, I hold positions within them. Proficient in communication, as evidenced by my collaborative experience in teams. I have a keen interest and talent in Web Development, Business Analyst, System Analyst, and Quality Assurance.
 
 🛠️ Skills
@@ -47,11 +47,6 @@ Coming Soon
 Address: Jl. Marimbun II No. 97 P.Siantar
 Email: gracestmrg02@gmail.com
 Phone: +62 821-6496-1233
-[Follow Me on Social Media]
-[Download CV]
-Contact Form
-Your Name
-Your Email
-Your Message
+
 
 Copyright © 2024 Grace Christina Yohanna Situmorang. All Rights Reserved.
